@@ -1,10 +1,7 @@
 ### blog
-自己写的博客网站
-目录结构的解释
-controller_and_model
-   这是一个包含了Java后端的目录，有controller bean service和mapper层以及mapper的xml文件。
-view
-   这个是前端组件的目录里面包含了博客页面的全部组件。使用是vue和element-ui来实现的。
+自己写的博客网站，这个自己配置数据库和application.yml文件就可以跑
+
+数据库就一张表，表的结构是  id(主键)  title(题)  parent(上一级节点,如果是根节点就是0）  deleted(删除标志位)
 
 !["博客首页"](https://logel.oss-cn-beijing.aliyuncs.com/363784d0d81b4d39b61dd9ef5447e124)
 <center>博客首页</center>
